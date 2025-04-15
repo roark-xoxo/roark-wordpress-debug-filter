@@ -1,8 +1,5 @@
 # ROARK WordPress Debug Filter
 
-**Author:** [ROARK](https://roark.at)\
-**License:** MIT
-
 ## Overview
 
 The **ROARK Debug Filter** is a Must-Use (MU) plugin designed to suppress specific `_doing_it_wrong` notices introduced in WordPress 6.7. These notices pertain to the `_load_textdomain_just_in_time` function, which is triggered when translation files are loaded too early in the WordPress execution cycle.
