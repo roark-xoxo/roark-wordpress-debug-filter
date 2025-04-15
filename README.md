@@ -60,14 +60,6 @@ function roark_filter_doing_it_wrong_notices($trigger, $function_name)
 
 - **Temporary Solution:** This plugin is intended as a temporary workaround. It's recommended to monitor updates from plugin and theme developers and remove this filter once they've addressed the issue.
 
-- **Production Environments:** While this plugin suppresses specific notices, it's also advisable to configure your `wp-config.php` file appropriately for production environments:
-
-  ```php
-  define('WP_DEBUG', false);
-  define('WP_DEBUG_DISPLAY', false);
-  define('WP_DEBUG_LOG', false);
-  ```
-
 - **Stay Updated:** Keep an eye on updates from the WordPress core and your installed plugins/themes to ensure compatibility and optimal performance.
 
 ## Support and More Information
